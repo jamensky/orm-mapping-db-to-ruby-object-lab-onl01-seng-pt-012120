@@ -42,7 +42,6 @@ class Student
 
   def self.all_students_in_grade_X(x)
      self.all.select{|student| student.grade == x.to_s}.to_a
-     binding.pry
   end
 
   def save
