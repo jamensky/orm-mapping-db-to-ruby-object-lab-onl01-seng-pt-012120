@@ -42,7 +42,7 @@ class Student
 
   def self.all_students_in_grade_X(x)
      self.all.select{|student| student.grade == x}.to_a
-     #binding.pry
+     binding.pry
   end
 
   def save
